@@ -1,16 +1,14 @@
 <div align="justify">
 <h1><u> FlaskRest</u></h1>
 
-El estilo arquitectural RESTful es una de las arquiecturas de software orientadas a servicios más populares hoy en día. 
-
-Esto se evidencia en el hecho que muchas de las plataformas centradas en la nube ofrecen su información y servicios siguiendo este estilo arquitectural.
+El estilo arquitectural RESTful es una de las arquiecturas de software orientadas a servicios más populares hoy en día. Esto se evidencia en el hecho que muchas de las plataformas centradas en la nube ofrecen su información y servicios siguiendo este estilo arquitectural.
 
 El microframework [Flask](https://flask.palletsprojects.com/en/1.1.x/) permite el fácil desarrollo y despliegue de servicios que siguen el esquema arquitectura RESTful.Creditos al docente [josanabr](https://github.com/josanabr).
 
 La definicion de la VM utilizada para pruebas se encuentra en el siguiente [Vagrantfile](./Vagrantfile).
 
 --- 
-<h2><u> Recursos</u></h2>
+<h2><u> Requerimientos</u></h2>
 
 Para ejecutar este código es necesario tener instalados los siguientes paquetes:
 * Python + Python Dev 
@@ -25,7 +23,7 @@ Para ejecutar este código es necesario tener instalados los siguientes paquetes
 En el archivo [main.py](main.py) se encuentran todos los ejercicios desarrollados. Dentro del archivo se encontrarán **EJEMPLO**s y encontrarán **EJERCICIO**s.  Los **EJEMPLO**s le permitirán familiarizarse con la forma en que estan programadas las soluciones y en **EJERCICIO**s se encuentran todos los ejercicios planteados.
 
 ---
-<h3><u>Recursos</u></h3>
+<h3><u>Rutas</u></h3>
 
 En este momento los siguientes recursos están disponibles para `main.py`:
 
@@ -69,3 +67,4 @@ En este momento los siguientes recursos están disponibles para `main.py`:
 En el archivo [flask-app.py](`flask-app.py`) se encuentra una aplicación que modela el proceso *Getting Things Done* bajo un esquema API REST. Diapositivas asociadas a este repositorio se encuentran [aquí](https://docs.google.com/presentation/d/13in0zrKxB3gU6OPA0-G6l0C9trTVvGhtrMD5yUUMPgs/edit?usp=sharing).
 
 </div>
+
