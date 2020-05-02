@@ -67,8 +67,10 @@ En este momento los siguientes recursos están disponibles para `flask-task.py`:
 ---
 <h2><u>Instalacion</u></h2>
 
+docker pull andresdfx/flask-monitor 
+docker run --rm -d -p 5000:5000 andresdfx/flask-monitor
 (ToDo)
-usar el comando `export REMOTE=34.83.30.8:8000`
+usar el comando `export REMOTE="34.83.147.81:8000"`
 
 </div>
 
