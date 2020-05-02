@@ -1,31 +1,24 @@
 <div align="justify">
 <h1><u> FlaskRest</u></h1>
 
+(ToDo)
+
+Para el tutorial completo y la generalizacion del problema [Vagrantfile](./Vagrantfile)
 El estilo arquitectural RESTful es una de las arquiecturas de software orientadas a servicios más populares hoy en día. Esto se evidencia en el hecho que muchas de las plataformas centradas en la nube ofrecen su información y servicios siguiendo este estilo arquitectural.
 
-El microframework [Flask](https://flask.palletsprojects.com/en/1.1.x/) permite el fácil desarrollo y despliegue de servicios que siguen el esquema arquitectura RESTful.Creditos al docente [josanabr](https://github.com/josanabr).
+El microframework [Flask](https://flask.palletsprojects.com/en/1.1.x/) permite el fácil desarrollo y despliegue de servicios que siguen el esquema arquitectura RESTful. Creditos al docente [josanabr](https://github.com/josanabr).
 
 La definicion de la VM utilizada para pruebas se encuentra en el siguiente [Vagrantfile](./Vagrantfile).
-
---- 
-<h2><u> Requerimientos</u></h2>
-
-Para ejecutar este código es necesario tener instalados los siguientes paquetes:
-* Python + Python Dev 
-	* `sudo apt-get install python-setuptools python-dev build-essential`
-	* `sudo easy_install pip`
-* Flask (`sudo pip install flask`)
-
 
 ---
 <h2><u>Parte 1 - Monitoreo del servidor</u></h2>
 
-En el archivo [main.py](main.py) se encuentran todos los ejercicios desarrollados. Dentro del archivo se encontrarán **EJEMPLO**s y encontrarán **EJERCICIO**s.  Los **EJEMPLO**s le permitirán familiarizarse con la forma en que estan programadas las soluciones y en **EJERCICIO**s se encuentran todos los ejercicios planteados.
+En el archivo [flask-monitor.py](./1.Build/flask-monitor.py) se encuentran todos los ejercicios desarrollados. Dentro del archivo se encontrarán **EJEMPLO**s y encontrarán **EJERCICIO**s. 
 
 ---
 <h3><u>Rutas</u></h3>
 
-En este momento los siguientes recursos están disponibles para `main.py`:
+En este momento los siguientes recursos están disponibles para `flask-monitor.py`:
 
 * *GET* **/index.html** devuelve en formato JSON todas las rutas del web services. 
   
@@ -64,7 +57,18 @@ En este momento los siguientes recursos están disponibles para `main.py`:
 ---
 <h2><u>Parte 2 - API REST</u></h2>
 
-En el archivo [flask-app.py](`flask-app.py`) se encuentra una aplicación que modela el proceso *Getting Things Done* bajo un esquema API REST. Diapositivas asociadas a este repositorio se encuentran [aquí](https://docs.google.com/presentation/d/13in0zrKxB3gU6OPA0-G6l0C9trTVvGhtrMD5yUUMPgs/edit?usp=sharing).
+En el archivo [flask-task.py](./1.Build/flask-task.py) se encuentra una aplicación que modela el proceso *Getting Things Done* bajo un esquema API REST. Diapositivas asociadas a este problema se encuentran [aquí](https://docs.google.com/presentation/d/13in0zrKxB3gU6OPA0-G6l0C9trTVvGhtrMD5yUUMPgs/edit?usp=sharing).
+
+<h3><u>Rutas</u></h3>
+
+En este momento los siguientes recursos están disponibles para `flask-task.py`:
+(ToDo)
+
+---
+<h2><u>Instalacion</u></h2>
+
+(ToDo)
+usar el comando `export REMOTE=34.83.30.8:8000`
 
 </div>
 

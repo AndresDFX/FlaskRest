@@ -4,14 +4,14 @@
 Vagrant.configure("2") do |config|
  
   config.vm.define "server" do |server|
-    server.vm.box = "ubuntu/xenial32"
-    server.vm.hostname = "web-services"
-    #server.vm.provision "shell", path: "general.sh"
-    server.vm.provision "file", source: "main.py", destination: "$HOME/main.py"
-    #vagraserver.vm.synced_folder "./shared", "/home/vagrant/shared",owner: "nobody", group: "nogroup"
-    server.vm.network "forwarded_port", guest: 80 , host: 8888 , protocol: "tcp"
+    server.vm.box = "ubuntu/xenial64"
+    server.vm.hostname = "flask-rest"
+    server.vm.provision "shell", path: "./scripts/general.sh"
+    config.vm.provision "shell", path: "./scripts/install-docker.sh"
+    config.vm.provision "shell", path: "./scripts/install-gcloud.sh"
+    config.vm.network "forwarded_port", guest: 5000, host: 5000
     server.vm.provider :virtualbox do |vb|
-      vb.customize [ 'modifyvm', :id, '--name', 'web-services' ]
+      vb.customize [ 'modifyvm', :id, '--name', 'flask-rest' ]
       vb.customize [ 'modifyvm', :id, '--memory', '1024']
       vb.customize [ 'modifyvm', :id, '--cpus', '1' ]
     end

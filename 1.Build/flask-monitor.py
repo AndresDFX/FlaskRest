@@ -15,8 +15,8 @@
 #
 # Usar la libreria 'subprocess' de Python.
 #
-# Author:
-# Date:
+# Author: Julian Andres Castaño
+# Date: 02/05/2020
 #
 
 # Librerias que se requieren para correr la aplicacion
