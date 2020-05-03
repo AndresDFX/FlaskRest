@@ -8,4 +8,4 @@ En este directorio se encuentran los archivos que permiten crear una imagen de D
 > Posteriormente se subió a Docker Hub, `docker push andresdfx/flask-monitor`.
 
 * `flask-task.py` Contiene la aplicación escrita en Python "Getings task Done".
-* `flask-monitor.py` Contiene la aplicación escrita en Python para el monitore de recursos del sistema.
+* `flask-monitor.py` Contiene la aplicación escrita en Python para el monitoreo de recursos del sistema.
